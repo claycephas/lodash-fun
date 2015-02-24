@@ -47,13 +47,13 @@ For training on [lodash](https://lodash.com/).
 
 
 ## Setup
-Run `npm install` and `bower install`
+Run `npm install` and `bower install`.
 
 ## Development
 Run `grunt serve` for preview.
 
 ## Build
-Run `grunt` to building
+Run `grunt` to build.
 
 ## Test
 Run `grunt test` to run the unit tests with karma.
