@@ -7,7 +7,7 @@ For training on [lodash](https://lodash.com/).
 
 - Create array of person objects. For example:
 
-
+```
 	[
 	      {
 	        "Name":"Sean Mendoza",
@@ -30,6 +30,7 @@ For training on [lodash](https://lodash.com/).
 	        "Age":21
 	      }
 	]
+```
 
 
 - Iterate over array and print email addresses using Array.forEach
