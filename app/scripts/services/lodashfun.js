@@ -82,7 +82,7 @@ angular.module('techShareApp')
             "State":"MO",
             "Zip":90654,
             "LatLong":"6.74078, -5.79497",
-            "Age":80
+            "Age":79
           },
           {
             "Name":"Rhonda Fowler",
@@ -232,7 +232,7 @@ angular.module('techShareApp')
             "State":"AK",
             "Zip":99949,
             "LatLong":"65.9676, -146.38661",
-            "Age":80
+            "Age":79
           },
           {
             "Name":"Clementine Skinner",
@@ -252,7 +252,7 @@ angular.module('techShareApp')
             "State":"MD",
             "Zip":64823,
             "LatLong":"61.48593, -172.80876",
-            "Age":80
+            "Age":79
           },
           {
             "Name":"Ethan Eaton",
@@ -1016,9 +1016,40 @@ angular.module('techShareApp')
           }
         ];
 
-      function getAll() {
+      api.getAll = function() {
         return data_;
+      };
+
+      api.getAllEmails = function() {
+        // TODO
+      };
+
+      api.getColoradoPeople = function() {
+        // TODO
+      };
+
+      api.getSortedByAge = function() {
+        // TODO
+      };
+
+      api.getGroupedByState = function() {
+        // TODO
+      };
+
+      api.getCountsByState = function() {
+        // TODO
+      };
+
+      api.doesEveryoneHaveSpacesInTheirName = function() {
+        // TODO
+      };
+
+      api.getOldestPerson = function() {
+        // TODO
+      };
+
+      api.getPropertyNamesStartingWithS = function() {
+        // TODO
       }
 
-      api.getAll = getAll;
   });

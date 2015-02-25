@@ -33,10 +33,10 @@ For training on [lodash](https://lodash.com/).
 ```
 
 
-- Iterate over array and print email addresses using Array.forEach
 - Get filtered list of people in Colorado using anonymous function callback
 - Get filtered list of people in Colorado using named function callback
 - Get filtered list of people in Colorado using shorthand syntax
+- Get an array of all email addresses
 - Sort by age
 - Group list by state
 - Count by state
